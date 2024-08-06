@@ -1,0 +1,52 @@
+goal=40000 # how much money you want
+hours=8 #how many hours a day are worked
+wages=15.65#an hour
+days=5 #working days
+costsw=0 #any expenses
+costsy=21000
+
+
+
+#this is all you have to fill in.
+print(goal,"is the goal")
+print(hours,"hours a day")
+print(wages,"dollars an hour")
+daily=wages*hours
+daily==wages*hours
+print(daily,"dollars made per day")
+weekly=daily*days
+weekly==daily*days
+print(weekly,"per dollars made per week")
+cashw=weekly-costsw #cashw is any free money in a week
+cashw==weekly-costsw
+print(costsw,"in expenses per week")
+print(cashw,"dollars of profit a week")
+weekstogoal=goal/cashw
+weekstogoal==goal/cashw
+print(weekstogoal,"weeks to goal")
+daystogoal=weekstogoal*7
+daystogoal==weekstogoal*7
+print(daystogoal,"more days")
+hourstogoal=goal/wages
+hourstogoal==goal/wages
+print(hourstogoal,"more hours (not including expenses)")
+yearstogoal=daystogoal/365
+yearstogoal==daystogoal/365
+print(yearstogoal,"years left")
+
+
+
+
+jan=31
+feb=28
+march=31
+april=30
+may=31
+june=30
+july=31
+aug=31
+sep=30
+october=31
+november=30
+dec=31
+currentmonth=aug
